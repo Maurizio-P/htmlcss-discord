@@ -12,7 +12,7 @@
 Classi
 ********************************************/
 .header {
-    min-height: 50vh;
+    min-height: 70vh;
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
@@ -30,7 +30,9 @@ Classi
     display: inline-block;
     min-width: 40%;
     max-width: 100%;
+    transform: translateY(-2px);
 }
+
 .navbar__link {
     text-align: center;
 }
@@ -43,8 +45,13 @@ Classi
     display: inline-block;
 }
 
-.navbar a {
+.navbar a,
+.hero__button a {
     text-decoration: none;
+}
+
+.navbar__button {
+    text-align: right;
 }
 
 .navbar__link-list li a {
@@ -54,11 +61,23 @@ Classi
 }
 
 
+.header__hero-text,
+.header__hero-container-button {
+    text-align: center;
+    margin: 0 calc(100% / 6);
+    padding: 20px;
+    color: white;
+}
 
+.header__hero-text h1 {
+    padding: 20px;
+    font-size: 35px;
+}
 
-
-
-
+.hero__button {
+    display: inline-block;
+    padding: 15px;
+}
 
 
 
@@ -67,6 +86,24 @@ Classi
 /*******************************************
 Classi utili
 ********************************************/
+
+.bt {
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.bt-white {
+    background-color: white;
+    color: black;
+}
+
+.bt-black {
+    background-color: #23272A;
+    color: white;
+}
+
+
+
 
 .clearfix::after {
     content: "";
@@ -97,3 +134,5 @@ Classi utili
 .col-5_6 {
     width: calc(100% / 6 *5);
 }
+
+
