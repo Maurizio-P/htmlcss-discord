@@ -2,31 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
 }
-
-header {
-    background-image: url(../img/jumbo.png);
-    background-position: center;
-    background-size: cover;
-}
-
-nav ul {
-    list-style: none;
-    padding: 20px;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-nav ul a {
-    text-decoration: none;
-    padding: 20px;
-    color: white;
-}
-
-
 
 
 
@@ -34,21 +11,47 @@ nav ul a {
 /*******************************************
 Classi
 ********************************************/
+.header {
+    min-height: 50vh;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
 
-.container {
+.container-center {
     width: 80%;
     margin: 0 auto;
 }
-
-.nav-link-app a {
-    text-decoration: none;
-    color: white;
+.navbar {
+    padding: 20px;
 }
 
+.navbar__logo img {
+    display: inline-block;
+    min-width: 40%;
+    max-width: 100%;
+}
+.navbar__link {
+    text-align: center;
+}
 
+.navbar__link-list {
+    list-style: none;
+}
 
+.navbar__link-list li {
+    display: inline-block;
+}
 
+.navbar a {
+    text-decoration: none;
+}
 
+.navbar__link-list li a {
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+}
 
 
 
