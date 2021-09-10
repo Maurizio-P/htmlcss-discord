@@ -16,6 +16,7 @@ Classi
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+    margin-bottom: 30px
 }
 
 .container-center {
@@ -60,7 +61,6 @@ Classi
     padding: 0 20px;
 }
 
-
 .header__hero-text,
 .header__hero-container-button {
     text-align: center;
@@ -79,8 +79,29 @@ Classi
     padding: 15px;
 }
 
+.main__section__container {
+    margin-top: 40px;
+}
 
+.main__section__img {
+    padding: 20px;
+}
 
+.main__section__img img {
+    max-width: 100%;
+}
+
+.main__section__text {
+    padding: 20px;
+}
+
+.main__section__text h2 {
+    padding-bottom: 20px;
+}
+
+.row:nth-child(even) {
+    background-color: #F6F6F6;
+}
 
 
 /*******************************************
@@ -133,6 +154,10 @@ Classi utili
 
 .col-5_6 {
     width: calc(100% / 6 *5);
+}
+
+.col-6_6 {
+    width: 100%;
 }
 
 
