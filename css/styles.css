@@ -20,7 +20,8 @@ Classi
 }
 
 .container-center {
-    width: 80%;
+    /* width: 80%; */
+    width: 60%;
     margin: 0 auto;
 }
 .navbar {
@@ -103,6 +104,99 @@ Classi
     background-color: #F6F6F6;
 }
 
+.main-bottom-center {
+    margin-left: calc(100% / 6);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main__button a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #23272A;
+}
+
+.footer-top {
+    padding: 30px;
+}
+
+.footer-list-left {
+    color: white;
+}
+
+.title-footer-list {
+    padding: 10px;
+    color: #5865F2;
+}
+.image-footer-list {
+    padding: 10px;
+}
+
+.image-footer-list img{
+    vertical-align: middle;
+    max-height: 30px;
+}
+
+.language-box {
+    background-color: #23272A;
+    border: none;
+    color: white;
+}
+
+.social-link {
+    padding: 20px 0;
+}
+.footer ul {
+    list-style: none;
+}
+
+.social-link ul li{ 
+    display: inline-block;
+}
+
+.social-link a {
+    padding: 20px 10px;
+    color: white;
+    font-size: 30px;
+}
+
+.footer-list-link {
+    padding: 0px 30px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+}
+.footer-list-right ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer-list-right li {
+    padding: 10px 0;
+}
+.footer-list-right ul li:first-child {
+    color: #7983F5;
+}
+
+.footer-list-right a, .footer-button a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list-right a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #7983F5;
+    padding: 20px;
+}
+
+.footer-button {
+    text-align: right;
+}
 
 /*******************************************
 Classi utili
@@ -111,6 +205,10 @@ Classi utili
 .bt {
     padding: 10px 20px;
     border-radius: 25px;
+}
+
+.bt-small {
+    padding: 5px 10px;
 }
 
 .bt-white {
@@ -123,8 +221,10 @@ Classi utili
     color: white;
 }
 
-
-
+.bt-purple {
+    background-color: #7983F5;
+    color: black;
+}
 
 .clearfix::after {
     content: "";
